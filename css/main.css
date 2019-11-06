@@ -1239,7 +1239,7 @@ option:focus-within {
         border-radius: 50%;
         top: 52px;
         left: auto;
-        cursor: pointer;
+        cursor: auto;
     }
     .floating-header .main-navigation-wrap {
         position: fixed;
