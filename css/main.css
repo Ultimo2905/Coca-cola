@@ -480,6 +480,7 @@ body {
     padding: 12px 40px;
     position: relative;
     z-index: 99;
+    text-decoration: none;
 }
 
 .content__a:hover {
