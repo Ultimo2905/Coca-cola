@@ -1208,7 +1208,6 @@ option:focus-within {
         top: 3%;
         overflow: hidden;
         visibility: hidden;
-        left: -1%;
     }
     .floating-menu-btn .floating-menu-toggle {
         right: auto;
