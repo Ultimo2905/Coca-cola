@@ -1188,6 +1188,9 @@ option:focus-within {
     .floating-header+* {
         padding-top: 0;
     }
+    .site-logo img{
+        margin-left: 10px !important;
+    }
 
     .snowflake {
         display: none;
