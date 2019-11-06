@@ -68,16 +68,16 @@ body {
 .floating-header .site-logo {
     max-width: 79px;
     padding: 0;
-    margin: 0 !important
+    margin: 0 !important;
 }
 
 @media screen and (max-width: 768px) {
     .floating-header {
-        padding: 25px 15px
+        padding: 25px 0px;
     }
 
     .floating-header+* {
-        padding-top: 175px
+        padding-top: 175px;
     }
 }
 
@@ -91,7 +91,7 @@ body {
     top: 10%;
     margin-left: -150px;
     overflow: hidden;
-    visibility: hidden
+    visibility: hidden;
 }
 
 .floating-header .main-navigation {
@@ -112,7 +112,7 @@ body {
     transform: translateY(35px);
     -webkit-transition: all 0.35s 0.2s;
     -o-transition: all 0.35s 0.2s;
-    transition: all 0.5s 0.5s
+    transition: all 0.5s 0.5s;
 }
 
 .floating-header .main-navigation .menu {
@@ -125,7 +125,7 @@ body {
     transform: translate3d(0, 0, 0);
     -webkit-transition: all 0.4s cubic-bezier(0.86, 0, 0.07, 1);
     -o-transition: all 0.4s cubic-bezier(0.86, 0, 0.07, 1);
-    transition: all 0.4s cubic-bezier(0.86, 0, 0.07, 1)
+    transition: all 0.4s cubic-bezier(0.86, 0, 0.07, 1);
 }
 
 .floating-header .main-navigation .menu.off-view {
@@ -133,7 +133,7 @@ body {
     -moz-transform: translate3d(-100%, 0, 0);
     -ms-transform: translate3d(-100%, 0, 0);
     -o-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0)
+    transform: translate3d(-100%, 0, 0);
 }
 
 .floating-header .main-navigation .menu.in-view {
@@ -141,21 +141,21 @@ body {
     -moz-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
     -o-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0)
+    transform: translate3d(0, 0, 0);
 }
 
 .floating-header .main-navigation .menu>li {
     position: static;
-    border-bottom: none
+    border-bottom: none;
 }
 
 .floating-header .main-navigation .menu>li>a {
     padding-top: 9px;
-    padding-bottom: 9px
+    padding-bottom: 9px;
 }
 
 .floating-header .main-navigation .menu li {
-    display: block
+    display: block;
 }
 
 .floating-header .main-navigation .menu li a {
@@ -186,12 +186,12 @@ body {
     transform: translate3d(100%, 0, 0);
     -webkit-transition: all 0.4s cubic-bezier(0.86, 0, 0.07, 1);
     -o-transition: all 0.4s cubic-bezier(0.86, 0, 0.07, 1);
-    transition: all 0.5s cubic-bezier(0.86, 0, 0.07, 1)
+    transition: all 0.5s cubic-bezier(0.86, 0, 0.07, 1);
 }
 
 .floating-header .main-navigation .menu li.menu-item-has-children>.sub-menu>li>a {
     padding-top: 9px;
-    padding-bottom: 9px
+    padding-bottom: 9px;
 }
 
 .floating-header .main-navigation .menu li.menu-item-has-children>.sub-menu.in-view {
@@ -199,7 +199,7 @@ body {
     -moz-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
     -o-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0)
+    transform: translate3d(0, 0, 0);
 }
 
 .floating-header .main-navigation .menu li.menu-item-has-children>.sub-menu.off-view {
@@ -207,13 +207,13 @@ body {
     -moz-transform: translate3d(-100%, 0, 0);
     -ms-transform: translate3d(-100%, 0, 0);
     -o-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0)
+    transform: translate3d(-100%, 0, 0);
 }
 
 .floating-header .main-navigation .menu li.menu-item-has-children:hover .sub-menu {
     -webkit-animation: none;
     -o-animation: none;
-    animation: none
+    animation: none;
 }
 
 .floating-header .main-navigation.is-visible {
@@ -223,21 +223,20 @@ body {
     -moz-transform: translateY(0);
     -ms-transform: translateY(0);
     -o-transform: translateY(0);
-    transform: translateY(0)
+    transform: translateY(0);
 }
 
-/*.ie .floating-header .main-navigation-wrap .main-navigation,
+.ie .floating-header .main-navigation-wrap .main-navigation,
 .edge .floating-header .main-navigation-wrap .main-navigation,
 .firefox .floating-header .main-navigation-wrap .main-navigation {
-    top: 0
-}*/
-/*
+    top: 0;
+
 .android .floating-header .main-navigation-wrap .main-navigation,
 .ios .floating-header .main-navigation-wrap .main-navigation {
     -webkit-transition: all 0.25s 0s;
     -o-transition: all 0.25s 0s;
-    transition: all 0.25s 0s
-}*/
+    transition: all 0.25s 0s;
+
 
 .floating-menu-btn {
     display: block;
@@ -247,7 +246,7 @@ body {
     right: 35px;
     width: 56px;
     height: 56px;
-    border-radius: 50%
+    border-radius: 50%;
 }
 
 .floating-menu-btn:before {
@@ -272,7 +271,7 @@ body {
     -o-transition: all 0.8s ease-out;
     transition: all 0.8s ease-out;
     -webkit-box-shadow: 0px 12px 18px 0px rgba(0, 0, 0, 0.26);
-    box-shadow: 0px 12px 18px 0px rgba(0, 0, 0, 0.26)
+    box-shadow: 0px 12px 18px 0px rgba(0, 0, 0, 0.26);
 }
 
 .floating-menu-btn .floating-menu-toggle-wrap {
@@ -283,7 +282,7 @@ body {
     border-radius: 50%;
     top: 28px;
     left: 27px;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .floating-menu-btn .floating-menu-toggle {
@@ -298,11 +297,11 @@ body {
 .floating-menu-btn .floating-menu-toggle .bar {
     width: 34px;
     height: 3.67px;
-    margin: 0 0 5px 0
+    margin: 0 0 5px 0;
 }
 
 .floating-menu-btn .floating-menu-toggle .bar:last-child {
-    margin-bottom: 0
+    margin-bottom: 0;
 }
 
 .floating-menu-btn.expanded .floating-menu-toggle {
@@ -310,7 +309,7 @@ body {
     -moz-transform: rotate(-180deg);
     -ms-transform: rotate(-180deg);
     -o-transform: rotate(-180deg);
-    transform: rotate(-180deg)
+    transform: rotate(-180deg);
 }
 
 .floating-menu-btn.expanded .floating-menu-toggle .bar:nth-child(1) {
@@ -348,7 +347,7 @@ body {
 
 @media screen and (max-width: 768px) {
     .floating-menu-btn {
-        right: 15px
+        right: 0px;
     }
 }
 
@@ -436,7 +435,6 @@ body {
     top: 0%;
     width: 100%;
     height: 100vh;
-    /*dgdfgd*/
 }
 
 .content {
@@ -535,7 +533,7 @@ body {
     width: 222.97px;
     height: 166.11px;
     position: absolute;
-    animation: fade-in 5s linear;
+    animation: fade-in 3s linear;
     right: 500px;
     bottom: 250px;
 }
@@ -544,7 +542,9 @@ body {
     0% {
         opacity: 0;
     }
-
+    40% {
+        opacity: 0;
+    }
     100% {
         opacity: 1;
     }
@@ -656,7 +656,7 @@ body {
 }
 
 .link-change:hover {
-    cursor: pointer
+    cursor: pointer;
 }
 
 .link-change {
@@ -693,7 +693,7 @@ body {
 /*button div (button text before hover)*/
 .link-change:hover p {
     opacity: 0;
-    transform: translate(0, -100%)
+    transform: translate(0, -100%);
 }
 
 .link-change p {
