@@ -1243,8 +1243,8 @@ option:focus-within {
     }
     .floating-header .main-navigation-wrap {
         position: fixed;
-        height: 60%;
-        top: 15%;
+        height: 65%;
+        top: 30%;
         overflow: hidden;
         visibility: hidden;
     }
