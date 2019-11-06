@@ -643,7 +643,7 @@ body {
 
 .navmenu__ul {
     display: flex;
-    margin: 25px 0 0 80px;
+    margin: 10px 10px 0 0;
 }
 
 .navmenu__li {
@@ -1025,7 +1025,9 @@ option:focus-within {
         width: 450px;
         height: 490px;
     }
-
+    .tabcontent-text__content{
+        line-height: 28px;
+    }
     .tabcontent-picture {
         margin: 130px 0 0 34px;
     }
@@ -1179,6 +1181,12 @@ option:focus-within {
 }
 
 @media (min-width: 320px) and (max-width: 599px) {
+    .floating-header {
+        position: absolute;
+    }
+    .site-logo {
+        position: sticky;
+    }
     .floating-header+* {
         padding-top: 0;
     }
@@ -1218,6 +1226,8 @@ option:focus-within {
     .floating-menu-btn,
     .site-logo {
         top: 25px;
+        margin-right: 10px;
+        position: absolute;
     }
 
     .floating-header,
@@ -1251,10 +1261,8 @@ option:focus-within {
 
     .pagetwo {
         flex-direction: column;
-        height: 1239px;
-        background-image: url(../images/bgpagetwoSM.png);
+        height: 1239px; 
         position: relative;
-        background-size: auto;
     }
 
     .leftblock__title {
