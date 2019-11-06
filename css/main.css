@@ -663,7 +663,7 @@ body {
     outline: none;
     position: relative;
     overflow: hidden;
-
+    text-decoration: none;
 }
 
 /*button:before (attr data-hover)*/
