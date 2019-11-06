@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crismas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Risque&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header class="floating-header">
+        <a href="#" class="site-logo">
+            <img src="images/Coca-Cola_logo_white1.png" alt="">
+        </a>
+        <nav class="navmenu">
+            <ul class="navmenu__ul">
+                <li class="navmenu__li"><a href="" data-hover="Main" class="link-change">
+                        <p>Main</p>
+                    </a></li>
+                <li class="navmenu__li"><a href="" data-hover="About" class="link-change">
+                        <p>About</p>
+                    </a></li>
+                <li class="navmenu__li"><a href="" data-hover="Products" class="link-change">
+                        <p>Products</p>
+                    </a></li>
+                <li class="navmenu__li"><a href="" data-hover="Contacts" class="link-change">
+                        <p>Contacts</p>
+                    </a></li>
+            </ul>
+        </nav>
+        <div class="floating-menu-btn">
+            <div class="floating-menu-toggle-wrap">
+                <div class="floating-menu-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+        <div class="main-navigation-wrap">
+            <nav class="main-navigation" data-back-btn-text="Back">
+                <ul class="menu">
+                    <li class="menu-item-has-children current-menu-item delay-0">
+                        <a href="#">Home <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        <ul class="sub-menu">
+                            <li class="current-menu-item"><a href="#">About</a></li>
+                            <li><a href="#">Products</a></li>
+                            <li><a href="#">Contacts
+                                </a></li>
+                        </ul>
+                    </li>
+                    <li class="delay-1"><a href="#">About</a></li>
+                    <li class="delay-2"><a href="#">Products</a></li>
+                    <li class="delay-3"><a href="#">Contacts</a></li>
+                </ul><!-- .menu -->
+            </nav><!-- .main-navigation -->
+        </div><!-- .main-navigation-wrap -->
+    </header>
+    <main>
+        <div class="pageone anchor">
+            <div class="stars"></div>
+            <div class="twinkling"></div>
+            <div class="snow"></div>
+            <img src="images/snowflake_full.png" alt="snowflake" class="snowflake">
+            <div class="content-img-block">
+                <div class="content">
+                    <h1 class="content__title">Main Site Title</h1>
+                    <p class="content__text">Lorem ipsum descripsum</p>
+                    <a href="#" class="content__a">Call to action</a>
+                </div>
+                <div class="img-block">
+                    <picture>
+                        <source media="(min-width: 1600px)" srcset="images/cloud_plus_25.png">
+                        <source media="(min-width: 1300px)" srcset="images/Cloud.png" >
+                        <source media="(min-width: 900px)" srcset="images/cloud_plus_25.png">
+                        <img src="images/Cloud.png" alt="Cloud" class="img-block__cloud ">
+                    </picture>
+                    <picture class="img-block__dedcoca">
+                        <source media="(min-width: 1600px)" srcset="images/dedcoca_plus_25.png">
+                        <source media="(min-width: 1300px)" srcset="images/dedcoca.png" >
+                        <source media="(min-width: 600px)" srcset="images/dedcoca_minus_25.png">
+                        <source media="(min-width: 320px)" srcset="images/dedcocaSM.png" class="img-block__dedcoca">
+                        <img src="images/dedcocaSM.png" alt="dedcoca" class="img-block__dedcoca">
+                    </picture>
+                </div>
+            </div>
+        </div>
+        <div class="pagetwo anchor">
+            <div class="snow"></div>
+            <div class="leftblock">
+                <h3 class="leftblock__title">At least somewhere you can feel new year atmosphere </h3>
+                <p class="leftblock__text">Choose your present:</p>
+                <div class="tab">
+                    <a class="tablinks" onclick="openTab(event, 'gift1')">
+                        <picture >
+                            <source media="(min-width: 1024px)" srcset="images/Group1.png">
+                            <source media="(min-width: 319px)" srcset="images/Group1SM.png" class="gift-circle">
+                            <img src="images/Group1.png" alt="" class="gift-circle">
+                        </picture>
+                    </a>
+                    <a class="tablinks" onclick="openTab(event, 'gift2')">
+                        <picture>
+                            <source media="(min-width: 1024px)" srcset="images/Group2.png">
+                            <source media="(min-width: 319px)" srcset="images/Group2SM.png" class="gift-circle">
+                            <img src="images/Group1.png" alt="" class="gift-circle">
+                        </picture>
+                    </a>
+                    <a class="tablinks" onclick="openTab(event, 'gift3')">
+                        <picture >
+                            <source media="(min-width: 1024px)" srcset="images/Group3.png">
+                            <source media="(min-width: 319px)" srcset="images/Group3SM.png" class="gift-circle">
+                            <img src="images/Group1.png" alt="" class="gift-circle">
+                        </picture>
+                    </a>
+                </div>
+            </div>
+            <div class="rightblock">
+                <div id="gift1" class="tabcontent">
+                    <div class="tabcontent-text">
+                        <h3 class="tabcontent-text__title">Best sock ever</h3>
+                        <p class="tabcontent-text__content">Reuglar sock have no
+                            present inside <br />
+                            Lorem Ipsum is simply dumm y text of the printing and types etting industry. Lorem
+                        </p>
+                    </div>
+                    <div class="tabcontent-picture">
+                        <img src="images/new-year-sock.png" alt="" class="tabcontent-picture__img">
+                    </div>
+                </div>
+                <div id="gift2" class="tabcontent">
+                    <div class="tabcontent-text">
+                        <h3 class="tabcontent-text__title">Best sock ever2</h3>
+                        <p class="tabcontent-text__content">Reuglar sock have no
+                            present inside <br />
+                            Lorem Ipsum is simply dumm y text of the printing and types etting industry. Lorem
+                        </p>
+                    </div>
+                    <div class="tabcontent-picture">
+                        <img src="images/new-year-sock.png" alt="" class="tabcontent-picture__img">
+                    </div>
+                </div>
+                <div id="gift3" class="tabcontent">
+                    <div class="tabcontent-text">
+                        <h3 class="tabcontent-text__title">Best sock ever3</h3>
+                        <p class="tabcontent-text__content">Reuglar sock have no
+                            present inside <br />
+                            Lorem Ipsum is simply dumm y text of the printing and types etting industry. Lorem
+                        </p>
+                    </div>
+                    <div class="tabcontent-picture" >
+                        <picture>
+                            <source media="(min-width: 900px)" srcset="images/new-year-sock.png">
+                            <source media="(min-width: 320px)" srcset="images/new-year-sockSM.png">
+                            <img src="images/new-year-sock.png" alt="">
+                        </picture>
+
+                        <!-- <img src="images/new-year-sock.png" alt="" class="tabcontent-picture__img"> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pagethree anchor">
+            <div class="snow"></div>
+            <form action="#" method="post" class="leftblock-form">
+                <div>
+                    <h3 class="form-title">Write us <br />for real presents</h3>
+                </div>
+                <div class="size-mob">
+                    <div class="info-name-phone">
+                        <input type="text" name="name" placeholder="Name" required class="size-sm_input">
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="Phone" class="size-sm_input">
+                    </div>
+                    <div class="info-gender-email">
+                        <select name="cars" class="size-sm_input styleselect">
+                            <option disabled selected label="Gender"></option>
+                            <option value="Boy" label="Boy"></option>
+                            <option value="Girl" label="Girl" ></option>
+                        </select>
+                        <input type="email" name="email" placeholder="Email" required autocomplete="off" class="size-sm_input">
+                    </div>
+                    <div class="info-textarea">
+                        <textarea rows="3" cols="33" placeholder="Your witsh" required class="info-textarea__text"></textarea>
+                    </div>
+                    <div class="info-checkbox">
+                        <input type="checkbox" name="vehicle1" value="money" class="info-checkbox__checkbox">
+                        <p class="info-checkbox__text"> Whant Coca-cola with present ?</p>
+                    </div>
+                </div>
+            </form>
+            <div class="leftblock-empty"></div>
+        </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/float_menu.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script>
+    	var controller = new ScrollMagic.Controller();
+    		$(function () { // wait for document ready
+		// build scene
+		var scene = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 300})
+						.setPin("#pin1")
+						.addIndicators({name: "1 (duration: 300)"}) // add indicators (requires plugin)
+						.addTo(controller);
+	});
+    </script>
+</body>
+
+</html>
