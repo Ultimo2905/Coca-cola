@@ -1186,6 +1186,9 @@ option:focus-within {
 }
 
 @media (min-width: 320px) and (max-width: 599px) {
+    .info-checkbox__text {
+        color: #fff;
+    }
     .floating-header+* {
         padding-top: 0;
     }
