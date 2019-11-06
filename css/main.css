@@ -675,7 +675,7 @@ body {
 .link-change:before {
     content: attr(data-hover);
     position: absolute;
-    top: 0;
+    top: 16px;
     left: 0;
     width: 100%;
     color: red;
