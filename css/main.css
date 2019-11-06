@@ -266,9 +266,9 @@ body {
     -ms-transform: scale(1);
     -o-transform: scale(1);
     transform: scale(1);
-    -webkit-transition: all 0.8s ease-out;
-    -o-transition: all 0.8s ease-out;
-    transition: all 0.8s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
     -webkit-box-shadow: 0px 12px 18px 0px rgba(0, 0, 0, 0.26);
     box-shadow: 0px 12px 18px 0px rgba(0, 0, 0, 0.26);
 }
