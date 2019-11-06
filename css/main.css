@@ -72,6 +72,7 @@ body {
 @media screen and (max-width: 768px) {
     .floating-header {
         padding: 25px 0;
+        position: absolute;
     }
 
     .floating-header+* {
@@ -1185,8 +1186,25 @@ option:focus-within {
 }
 
 @media (min-width: 320px) and (max-width: 599px) {
+    .floating-menu-btn:before {
+        position: relative;
+    }
     .floating-header+* {
         padding-top: 0;
+    }
+    .floating-menu-btn .floating-menu-toggle-wrap {
+        position: relative;
+        z-index: 1;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        top: -28px;
+        cursor: pointer;
+    }
+    .floating-menu-btn .floating-menu-toggle {
+        right: auto;
+        margin-top: -10px;
+        margin-left: 12px;
     }
     .site-logo img{
         margin-left: 10px !important;
@@ -1227,7 +1245,7 @@ option:focus-within {
     .floating-menu-btn,
     .site-logo {
         top: 25px;
-        margin-right: 10px;
+        margin-right: 10px !important;
         position: absolute;
     }
 
