@@ -86,7 +86,7 @@ body {
     display: table;
     width: 300px;
     height: 100%;
-    right: 10%;
+    right: 15%;
     top: 10%;
     margin-left: -150px;
     overflow: hidden;
@@ -1243,8 +1243,8 @@ option:focus-within {
     }
     .floating-header .main-navigation-wrap {
         position: fixed;
-        height: 100%;
-        top: 3%;
+        height: 60%;
+        top: 15%;
         overflow: hidden;
         visibility: hidden;
     }
