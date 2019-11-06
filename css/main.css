@@ -1304,7 +1304,7 @@ option:focus-within {
     .pagethree {
         background-image: url(../images/bgpagethreeSM.png);
         background-repeat: no-repeat;
-
+        min-height: 700px;
     }
 
     .leftblock-form {
