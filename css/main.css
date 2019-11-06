@@ -1199,6 +1199,7 @@ option:focus-within {
         height: 60px;
         border-radius: 50%;
         top: -28px;
+        left: 0px;
         cursor: pointer;
     }
     .floating-menu-btn .floating-menu-toggle {
