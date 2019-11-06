@@ -250,7 +250,7 @@ body {
 
 .floating-menu-btn:before {
     display: block;
-    position: absolute;
+    position: fixed;
     z-index: -1;
     content: "";
     width: 56px;
@@ -1185,12 +1185,6 @@ option:focus-within {
 }
 
 @media (min-width: 320px) and (max-width: 599px) {
-    .floating-header {
-        position: absolute;
-    }
-    .site-logo {
-        position: sticky;
-    }
     .floating-header+* {
         padding-top: 0;
     }
@@ -1231,11 +1225,6 @@ option:focus-within {
     .site-logo {
         top: 25px;
         margin-right: 10px;
-        position: absolute;
-    }
-
-    .floating-header,
-    .site-logo {
         position: absolute;
     }
 
