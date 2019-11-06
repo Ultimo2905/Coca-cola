@@ -1186,21 +1186,26 @@ option:focus-within {
 }
 
 @media (min-width: 320px) and (max-width: 599px) {
-    .floating-menu-btn:before {
-        position: relative;
-    }
     .floating-header+* {
         padding-top: 0;
     }
     .floating-menu-btn .floating-menu-toggle-wrap {
-        position: relative;
+        position:fixed;
         z-index: 1;
         width: 60px;
         height: 60px;
         border-radius: 50%;
-        top: -28px;
-        left: 0px;
+        top: 52px;
+        left: auto;
         cursor: pointer;
+    }
+    .floating-header .main-navigation-wrap {
+        position: fixed;
+        height: 100%;
+        top: 3%;
+        overflow: hidden;
+        visibility: hidden;
+        left: -1%;
     }
     .floating-menu-btn .floating-menu-toggle {
         right: auto;
