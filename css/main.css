@@ -1035,6 +1035,9 @@ option:focus-within {
 }
 
 @media (min-width: 900px) and (max-width: 1023px) {
+    .pagethree {
+        min-height: 700px;
+    }
     .navmenu {
         display: none;
 
