@@ -1304,7 +1304,7 @@ option:focus-within {
     .pagethree {
         background-image: url(../images/bgpagethreeSM.png);
         background-repeat: no-repeat;
-        min-height: 700px;
+        min-height: 750px;
     }
 
     .leftblock-form {
@@ -1313,8 +1313,8 @@ option:focus-within {
     }
 
     .form-title {
-        font-size: 52px;
-        line-height: 60px;
+        font-size: 48px;
+        line-height: 52px;
         margin: 133px 0 24px 0;
 
     }
